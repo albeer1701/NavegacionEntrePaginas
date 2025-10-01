@@ -27,7 +27,7 @@
             <!-- Subtítulo fijo abajo -->
             <Grid BackgroundColor="Black" Grid.Row="1" Padding="8">
                 <Label
-                Text="Bienvenido a una nueva partida"
+                Text="Bienvenido a esta partida"
                 FontSize="23"
                 TextColor="DarkOrange"
                 Style="{StaticResource Headline}"
