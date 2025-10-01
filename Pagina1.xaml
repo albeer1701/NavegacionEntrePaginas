@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegacionEntrePaginas.Pagina1">
+    <Grid>
+        <!-- Imagen de fondo -->
+        <Image
+        Source="soldado1.jpeg"
+        Aspect="AspectFill"
+        Opacity="0.8"/>
+
+        <!-- Grid principal con dos filas -->
+        <Grid RowDefinitions="*,Auto,Auto">
+
+            <ScrollView>
+                <VerticalStackLayout>
+
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <Grid BackgroundColor="Black" Grid.Row="1" Padding="8">
+                <Label
+			Text="Bienvenido a tu partida!"
+			TextColor="darkorange"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			FontSize="20"/>
+            </Grid>
+
+            <Grid
+			Grid.Row="2" ColumnDefinitions="*,*"
+			Margin="20" ColumnSpacing="50">
+
+                <Button
+				x:Name="CounterBtn"
+                Text="Nueva Partida"
+                BackgroundColor="DarkOrange"
+                TextColor="Black"
+                FontSize="18"
+                CornerRadius="10"
+                Grid.Column="0"
+				Clicked="OnCounterClicked"/>
+
+                <Button
+                Text="Salir"
+                BackgroundColor="DarkOrange"
+                TextColor="Black"
+                FontSize="18"
+                CornerRadius="10"
+                Grid.Column="1"
+				Clicked="OnSalirClicked"/>
+
+
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>
