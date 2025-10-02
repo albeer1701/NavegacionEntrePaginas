@@ -49,8 +49,6 @@
                 CornerRadius="10"
                 Grid.Column="1"
 				Clicked="OnSalirClicked"/>
-
-
             </Grid>
         </Grid>
     </Grid>

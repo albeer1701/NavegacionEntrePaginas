@@ -9,6 +9,5 @@ public partial class PagOpciones : ContentPage
 
     private async void OnOpcionesClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new PagOpciones());
-    }
+        await Navigation.PushAsync(new PagOpciones());}
 }

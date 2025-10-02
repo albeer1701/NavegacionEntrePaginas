@@ -11,15 +11,12 @@
         Opacity="0.8"/>
 
         <!-- Grid principal con dos filas -->
+        
         <Grid RowDefinitions="*,Auto,Auto">
 
             <!-- Scroll con contenido -->
             <ScrollView>
                 <VerticalStackLayout >
-
-
-
-
 
                 </VerticalStackLayout>
             </ScrollView>
@@ -27,7 +24,7 @@
             <!-- Subtítulo fijo abajo -->
             <Grid BackgroundColor="Black" Grid.Row="1" Padding="8">
                 <Label
-                Text="Bienvenido a esta partida"
+                Text="Bienvenido al Juego!"
                 FontSize="23"
                 TextColor="DarkOrange"
                 Style="{StaticResource Headline}"
